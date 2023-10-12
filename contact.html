@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Crested Geckos">
+    <link rel="stylesheet" href="style.css">
+    <title>Contact Us</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="img/Logo.png" alt="Crested Gecko Logo">
+        </div>
+        <h1>The World of Crested Geckos</h1>
+        <nav>
+          <a href="index.html">Home</a>
+          <a href="about.html">About Geckos</a>
+          <a href="care.html">Gecko Care</a>
+          <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+
+    <section class="contact">
+        <h1>Contact Us</h1>
+        
+        <div class="location">
+            <h2>Our Location (Lombard)</h2>
+            <p>123 Main Street<br>Lombard, IL 60148<br>United States</p>
+        </div>
+
+        <div class="contact-form">
+            <h2>Get in Touch</h2>
+            <form action="submit_form.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2023 Crested Geckos</p>
+    </footer>
+</body>
+</html>

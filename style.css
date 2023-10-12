@@ -1,84 +1,97 @@
 body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #ffffff;
-  color: #038b03;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #040404;
+  }
+  
+  header {
+    background-color: #038b03;
+    color: #47f547;
+    padding: 10px 0;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+  }
+  
+  .logo img {
+    width: 300px;
+    height: auto;
+    margin-left: 20px;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin-right: 20px;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-left: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: rgba(4, 3, 3, 0.8);
+  }
+  
+  .gecko-facts {
+    background-color: ;
+    padding: 20px;
+    margin: 20px;
+    color: 
+    align-items: center;
+  }
+  
+  .gecko-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: ;
+    padding: 20px;
+    margin: 20px;
+    color:
+  }
+  
+  .gallery-item {
+    border: 1px solid darkgreen;
+    margin: 10px;
+    padding: 10px;
+  }
+  
+  body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .gecko-species, .gecko-diet, .gecko-habitat {
+    margin: 1rem 0;
+    color:black;
+  }
+  
+  .gecko-species ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .gecko-species li {
+    margin: 0.5rem 0;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+}
+@media screen and (max-width: 768px) {
+
 }
 
-header {
-  background-color: #038b03;
-  color: #47f547;
-  padding: 10px 0;
-  display: flex;
-  justify-content:space-between;
-  align-items: center;
-}
+@media screen and (min-width: 769px) {
 
-.logo img {
-  width: 100px;
-  height: auto;
-  margin-left: 20px;
-}
-
-nav ul {
-  list-style: none;
-  margin-right: 20px;
-}
-
-nav ul li {
-  display: inline;
-  margin-left: 20px;
-}
-
-nav ul li a {
-  text-decoration: none;
-  color: rgb(1, 1, 1);
-}
-
-.gecko-facts {
-  background-color: ;
-  padding: 20px;
-  margin: 20px;
-  color:black;
-}
-
-.gecko-gallery {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  background-color: ;
-  padding: 20px;
-  margin: 20px;
-  color:black
-}
-
-.gallery-item {
-  border: 1px solid darkgreen;
-  margin: 10px;
-  padding: 10px;
-}
-
-body {
-  font-family: sans-serif;
-  margin: 0;
-  padding: 0;
-}
-
-h1 {
-  text-align: center;
-}
-
-.gecko-species, .gecko-diet, .gecko-habitat {
-  margin: 1rem 0;
-  color:black;
-}
-
-.gecko-species ul {
-  list-style: none;
-  padding: 0;
-}
-
-.gecko-species li {
-  margin: 0.5rem 0;
 }
